@@ -17,6 +17,8 @@
 
 本工程为 ***A-Zealous*** 沿用所提供电赛模板的 ctexart、XeLaTeX 和基础宏包，和之前RST水下写的报告的内容排版，改成的水下机器人报告的摘要与双栏版式。学校名称保留，队名使用“某某队”。正文保留任务设计范例，不表示所有水下机器人比赛均采用这些规则。形成了比较通用化的一个水下类比赛都能用的LaTex模板
 
+范本链接：https://github.com/SHMTU-EEHUB/Template-for-Electrical-Competition-Report
+
 ### 文件
 
 - `main.tex`：编译入口，包含字体、页面设置、题名和中英文摘要。
