@@ -1,0 +1,760 @@
+{
+  "projects": {
+    "QGroundControl": {
+      "repository": "https://github.com/mavlink/qgroundcontrol",
+      "ref": "v3.5.6",
+      "archiveSHA256": "e233ce6901b4d8aee22515457d0d6608a3e637b212269386c4e6c14d4d2ec5d3"
+    },
+    "ArduSub": {
+      "repository": "https://github.com/ArduPilot/ardupilot",
+      "ref": "ArduSub-3.5.4",
+      "commit": "05fed49b8ee1db3c6bca924e0b334b2e0ece980d",
+      "commitDate": "2019-04-01T21:57:32Z"
+    }
+  },
+  "files": [
+    {
+      "path": "01_手柄与操控/QGC/src/Joystick/Joystick.cc",
+      "bytes": 29566,
+      "sha256": "084ec8d0242d9df7f98aad8d12ef5111022e501d11e655e72a1f2cee1cdb8c52",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/Joystick/Joystick.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/Joystick/Joystick.cc"
+    },
+    {
+      "path": "01_手柄与操控/QGC/src/Joystick/Joystick.h",
+      "bytes": 8734,
+      "sha256": "22ab8cb527c763e26a0e4093778fba29d352f9a3baec9106b776e96cd20bedfa",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/Joystick/Joystick.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/Joystick/Joystick.h"
+    },
+    {
+      "path": "01_手柄与操控/QGC/src/Joystick/JoystickSDL.cc",
+      "bytes": 6627,
+      "sha256": "20beb96b0a451a705424981bb6ef55e4a0d434dbab6d547304aa3a9911451bca",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/Joystick/JoystickSDL.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/Joystick/JoystickSDL.cc"
+    },
+    {
+      "path": "01_手柄与操控/QGC/src/Joystick/JoystickSDL.h",
+      "bytes": 1156,
+      "sha256": "afc2624d64259d3b69eb8f11a06cbfb013796f2500e3d2794023de68209bea1f",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/Joystick/JoystickSDL.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/Joystick/JoystickSDL.h"
+    },
+    {
+      "path": "01_手柄与操控/QGC/src/Joystick/JoystickManager.cc",
+      "bytes": 6407,
+      "sha256": "3e3e8921f93e3cb31c99deeedd11a7d15f00daef5ee47957cdd8ed51c55ced31",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/Joystick/JoystickManager.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/Joystick/JoystickManager.cc"
+    },
+    {
+      "path": "01_手柄与操控/QGC/src/Joystick/JoystickManager.h",
+      "bytes": 2325,
+      "sha256": "85681f5a3d4506fb92ccc9324906949b33a58e22db439c7ccdafa77a5e04cdb0",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/Joystick/JoystickManager.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/Joystick/JoystickManager.h"
+    },
+    {
+      "path": "01_手柄与操控/QGC/src/VehicleSetup/JoystickConfigController.cc",
+      "bytes": 31711,
+      "sha256": "b7c11514f4637b56a34f7ddd66b10797e712729fd9febe1ab1271313b4b680ff",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/VehicleSetup/JoystickConfigController.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/VehicleSetup/JoystickConfigController.cc"
+    },
+    {
+      "path": "01_手柄与操控/QGC/src/VehicleSetup/JoystickConfigController.h",
+      "bytes": 9651,
+      "sha256": "0556d36149c2a179cfd9a30f28a73b6d17413abc2450ae6223e279342068e300",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/VehicleSetup/JoystickConfigController.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/VehicleSetup/JoystickConfigController.h"
+    },
+    {
+      "path": "01_手柄与操控/QGC/src/VehicleSetup/JoystickConfig.qml",
+      "bytes": 42621,
+      "sha256": "ae6d6102da4685ab0447729390b8b1f0e3a6bf315b5abb0b04595672c25917be",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/VehicleSetup/JoystickConfig.qml",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/VehicleSetup/JoystickConfig.qml"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/comm/LinkManager.cc",
+      "bytes": 37474,
+      "sha256": "51d374b8029fb8e55c506c55ac943362b15b6e0291b01c3cf361689ad74877e8",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/comm/LinkManager.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/comm/LinkManager.cc"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/comm/LinkManager.h",
+      "bytes": 9752,
+      "sha256": "f5402f44ec1be8d73a593afd6f87584501c0015833bff69962309f8308000a0a",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/comm/LinkManager.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/comm/LinkManager.h"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/comm/LinkConfiguration.cc",
+      "bytes": 4328,
+      "sha256": "760cd6ff830bd890e48a9c13a5d271823ecc37f79ed7c7afc9e3094fd82752c3",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/comm/LinkConfiguration.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/comm/LinkConfiguration.cc"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/comm/LinkConfiguration.h",
+      "bytes": 7299,
+      "sha256": "87f44045ccbd844db24fad7677740111e7d832b7f5a5bd922905582d37a23b51",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/comm/LinkConfiguration.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/comm/LinkConfiguration.h"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/comm/LinkInterface.cc",
+      "bytes": 8261,
+      "sha256": "66600bbce1e83f3de1a22be933da1077f1be5c8c4faa13c0e9c8ca6c3dd6a304",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/comm/LinkInterface.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/comm/LinkInterface.cc"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/comm/LinkInterface.h",
+      "bytes": 11602,
+      "sha256": "4b56911df68de79b96873286f41338ee9c8355b8a546a3d4f54b60b7a5bf244b",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/comm/LinkInterface.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/comm/LinkInterface.h"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/comm/MAVLinkProtocol.cc",
+      "bytes": 19177,
+      "sha256": "468ea8529e94874d14832634f07f43bab01f59912e5850791f94557078863c40",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/comm/MAVLinkProtocol.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/comm/MAVLinkProtocol.cc"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/comm/MAVLinkProtocol.h",
+      "bytes": 6046,
+      "sha256": "b0ce6ff1312b1092ae5345d34dc900a0b3de1a067003c794b2f2d95cf8debf0f",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/comm/MAVLinkProtocol.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/comm/MAVLinkProtocol.h"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/comm/SerialLink.cc",
+      "bytes": 17886,
+      "sha256": "2cc9d2842027dc6698a6dbd5a7bf92319b00302c073c2ca547225dc592cc608e",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/comm/SerialLink.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/comm/SerialLink.cc"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/comm/SerialLink.h",
+      "bytes": 6769,
+      "sha256": "44aac61120b73a631b83c3cc26e50b703403726c8ae4008f5236421e617b4553",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/comm/SerialLink.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/comm/SerialLink.h"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/comm/UDPLink.cc",
+      "bytes": 15699,
+      "sha256": "82e09b9412a6304ec9f7e6708ec83fac9f65059f131627b383d7d228349d67cd",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/comm/UDPLink.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/comm/UDPLink.cc"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/comm/UDPLink.h",
+      "bytes": 5947,
+      "sha256": "0a34591ba856fbcea543b76df470120052ded559fc3a7717590f29f7ea886591",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/comm/UDPLink.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/comm/UDPLink.h"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/comm/TCPLink.cc",
+      "bytes": 8325,
+      "sha256": "fa6700a93a9e95f82dc48848a3ba5414d7ecc424ad7bd5532fb4b0b50d861b84",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/comm/TCPLink.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/comm/TCPLink.cc"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/comm/TCPLink.h",
+      "bytes": 5162,
+      "sha256": "f61c10959f352976ee609b5b0808f791dfa03a37ca5646fb7bfd76dfc32746b3",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/comm/TCPLink.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/comm/TCPLink.h"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/comm/QGCSerialPortInfo.cc",
+      "bytes": 10626,
+      "sha256": "c308e2173d4365f41b2e25f66f417dc84e56af548921327aca6fbfd0c4fe8cf2",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/comm/QGCSerialPortInfo.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/comm/QGCSerialPortInfo.cc"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/comm/QGCSerialPortInfo.h",
+      "bytes": 2731,
+      "sha256": "58c361e7e8b041f53d59b070c0eb9e73c0602be8b792e26796262afba8dd006d",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/comm/QGCSerialPortInfo.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/comm/QGCSerialPortInfo.h"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/comm/QGCMAVLink.cc",
+      "bytes": 1342,
+      "sha256": "d06e5a77dba5a5f2cc3df6762c43c4272a15ab8a6848e6926a5d89980f5216ac",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/comm/QGCMAVLink.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/comm/QGCMAVLink.cc"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/comm/QGCMAVLink.h",
+      "bytes": 1107,
+      "sha256": "7f16d5aadb0a3e4cbd15dd5a734dfe1634450af1d24af887b257e5473e13df96",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/comm/QGCMAVLink.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/comm/QGCMAVLink.h"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/uas/UAS.cc",
+      "bytes": 60728,
+      "sha256": "177a52a2d69778aa8365b6ffa609a351ea36710bdd724534f07986d717f54264",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/uas/UAS.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/uas/UAS.cc"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/uas/UAS.h",
+      "bytes": 13517,
+      "sha256": "84ac6e79a7767f56fa26dbaba84221c2dfa033040caca85a428ed0bef2c219fe",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/uas/UAS.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/uas/UAS.h"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/Vehicle/Vehicle.cc",
+      "bytes": 164458,
+      "sha256": "b098084ac2f8d03b77bf7da692862927ca9da6786ba56fde7dc0d9b07681586a",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/Vehicle/Vehicle.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/Vehicle/Vehicle.cc"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/Vehicle/Vehicle.h",
+      "bytes": 80971,
+      "sha256": "669de470a865c7fb7b4675b55d6fc815bfe408842863ced7241b7190ed55a33e",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/Vehicle/Vehicle.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/Vehicle/Vehicle.h"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/FactSystem/ParameterManager.cc",
+      "bytes": 64676,
+      "sha256": "15bc0523a25f81c76a1a89f35531aeda54e83814fef1c7662863e0fa38c9f744",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/FactSystem/ParameterManager.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/FactSystem/ParameterManager.cc"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/FactSystem/ParameterManager.h",
+      "bytes": 10983,
+      "sha256": "2f4ee6264e910829874a7717fce4a975a74601d1087c6be79ad07f864b3c20b5",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/FactSystem/ParameterManager.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/FactSystem/ParameterManager.h"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/FactSystem/Fact.cc",
+      "bytes": 18953,
+      "sha256": "4ad93e81f02fc887f762dabec2d529d51dfa2ec1e153e4150285826ab506a444",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/FactSystem/Fact.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/FactSystem/Fact.cc"
+    },
+    {
+      "path": "02_通信与参数读写/QGC/src/FactSystem/Fact.h",
+      "bytes": 12794,
+      "sha256": "861dcca677f263dfb2e5f39005660b166707a3c4934e84999ceaca6109df2293",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/FactSystem/Fact.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/FactSystem/Fact.h"
+    },
+    {
+      "path": "03_机器人配置与控制/QGC/src/FirmwarePlugin/APM/ArduSubFirmwarePlugin.cc",
+      "bytes": 14525,
+      "sha256": "f04e641d0268c0d3e3762b47874e8bb3c3c7b0dd9f7a5562200adef68f5bf162",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/FirmwarePlugin/APM/ArduSubFirmwarePlugin.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/FirmwarePlugin/APM/ArduSubFirmwarePlugin.cc"
+    },
+    {
+      "path": "03_机器人配置与控制/QGC/src/FirmwarePlugin/APM/ArduSubFirmwarePlugin.h",
+      "bytes": 6110,
+      "sha256": "daf0123400a64e46549fca535f85b113dd66ec835717b4f08f189253cb6ba5cf",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/FirmwarePlugin/APM/ArduSubFirmwarePlugin.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/FirmwarePlugin/APM/ArduSubFirmwarePlugin.h"
+    },
+    {
+      "path": "03_机器人配置与控制/QGC/src/FirmwarePlugin/APM/APMFirmwarePlugin.cc",
+      "bytes": 39945,
+      "sha256": "3dddb0641ec3088f990285305ccd6294f2ff18f5e9ad40f740d12d05cfd4f5c5",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/FirmwarePlugin/APM/APMFirmwarePlugin.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/FirmwarePlugin/APM/APMFirmwarePlugin.cc"
+    },
+    {
+      "path": "03_机器人配置与控制/QGC/src/FirmwarePlugin/APM/APMFirmwarePlugin.h",
+      "bytes": 7451,
+      "sha256": "10edd59a72518e8d8eee7a1ef84eec6746bf1e55a672ed4bd9291e49dd3b7488",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/FirmwarePlugin/APM/APMFirmwarePlugin.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/FirmwarePlugin/APM/APMFirmwarePlugin.h"
+    },
+    {
+      "path": "03_机器人配置与控制/QGC/src/FirmwarePlugin/APM/APMParameterMetaData.cc",
+      "bytes": 25821,
+      "sha256": "2ba472a8c607e3c83605c4c136015fbf26aee3b9a64d209b085f2a32af7469d9",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/FirmwarePlugin/APM/APMParameterMetaData.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/FirmwarePlugin/APM/APMParameterMetaData.cc"
+    },
+    {
+      "path": "03_机器人配置与控制/QGC/src/FirmwarePlugin/APM/APMParameterMetaData.h",
+      "bytes": 2621,
+      "sha256": "395d517a2468914849acf6c73b074c51bdff09de814d2a64c052630c833c9fa8",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/FirmwarePlugin/APM/APMParameterMetaData.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/FirmwarePlugin/APM/APMParameterMetaData.h"
+    },
+    {
+      "path": "03_机器人配置与控制/QGC/src/AutoPilotPlugins/APM/APMSubFrameComponent.cc",
+      "bytes": 1916,
+      "sha256": "e099ce5cb1c9eec89f8ff332a821e29c0fd6535820174754d66f86f0924170a3",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/AutoPilotPlugins/APM/APMSubFrameComponent.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/AutoPilotPlugins/APM/APMSubFrameComponent.cc"
+    },
+    {
+      "path": "03_机器人配置与控制/QGC/src/AutoPilotPlugins/APM/APMSubFrameComponent.h",
+      "bytes": 1115,
+      "sha256": "a7ae45264ce46fd3f2f549414fe695d0c9e25768b3948590da00b58b5fdece59",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/AutoPilotPlugins/APM/APMSubFrameComponent.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/AutoPilotPlugins/APM/APMSubFrameComponent.h"
+    },
+    {
+      "path": "03_机器人配置与控制/QGC/src/AutoPilotPlugins/APM/APMSensorsComponentController.cc",
+      "bytes": 31364,
+      "sha256": "43c64ae03a561046ef783da7e4316c37bbe88c0faa634fa43adf4e4ebf0aae52",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/AutoPilotPlugins/APM/APMSensorsComponentController.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/AutoPilotPlugins/APM/APMSensorsComponentController.cc"
+    },
+    {
+      "path": "03_机器人配置与控制/QGC/src/AutoPilotPlugins/APM/APMSensorsComponentController.h",
+      "bytes": 10409,
+      "sha256": "cc499307f1a01b660495d345798246181b31cd0468b141bd1b0bf71361cd20d9",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/AutoPilotPlugins/APM/APMSensorsComponentController.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/AutoPilotPlugins/APM/APMSensorsComponentController.h"
+    },
+    {
+      "path": "03_机器人配置与控制/QGC/src/AutoPilotPlugins/APM/APMSubFrameComponent.qml",
+      "bytes": 7896,
+      "sha256": "4868430ebfd703123b9b7d396dfb32c5999506a111dccaae6b691877f646d289",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/AutoPilotPlugins/APM/APMSubFrameComponent.qml",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/AutoPilotPlugins/APM/APMSubFrameComponent.qml"
+    },
+    {
+      "path": "03_机器人配置与控制/QGC/src/AutoPilotPlugins/APM/APMSubMotorComponent.qml",
+      "bytes": 10222,
+      "sha256": "4476e7841074768ecb8f9a911e0e59fc57d65031540f54f3ad46c10dd744e8db",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/AutoPilotPlugins/APM/APMSubMotorComponent.qml",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/AutoPilotPlugins/APM/APMSubMotorComponent.qml"
+    },
+    {
+      "path": "03_机器人配置与控制/QGC/src/AutoPilotPlugins/APM/APMSafetyComponentSub.qml",
+      "bytes": 19227,
+      "sha256": "cdbb63f4a32a577b49fe5e9e76eb20b00d3a43d00f6e0165ee2b71c57b82f5c5",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/AutoPilotPlugins/APM/APMSafetyComponentSub.qml",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/AutoPilotPlugins/APM/APMSafetyComponentSub.qml"
+    },
+    {
+      "path": "03_机器人配置与控制/QGC/src/AutoPilotPlugins/APM/APMTuningComponentSub.qml",
+      "bytes": 8021,
+      "sha256": "47b7645b7c0871ce255397287effe1c47c27378951f582908754110f1b4833fd",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/AutoPilotPlugins/APM/APMTuningComponentSub.qml",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/AutoPilotPlugins/APM/APMTuningComponentSub.qml"
+    },
+    {
+      "path": "03_机器人配置与控制/QGC/src/AutoPilotPlugins/APM/APMLightsComponent.qml",
+      "bytes": 12387,
+      "sha256": "4212426a5e52b85e5b38976c45608779f39dcbf833257a185123a75c46ab2dc5",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/AutoPilotPlugins/APM/APMLightsComponent.qml",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/AutoPilotPlugins/APM/APMLightsComponent.qml"
+    },
+    {
+      "path": "03_机器人配置与控制/QGC/src/AutoPilotPlugins/APM/APMCameraSubComponent.qml",
+      "bytes": 28693,
+      "sha256": "34627bc36d4701544be66c530717860f0072859f244c48d4bebde044d5abb8a2",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/AutoPilotPlugins/APM/APMCameraSubComponent.qml",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/AutoPilotPlugins/APM/APMCameraSubComponent.qml"
+    },
+    {
+      "path": "03_机器人配置与控制/QGC/src/QmlControls/APMSubMotorDisplay.qml",
+      "bytes": 1293,
+      "sha256": "3153163776b4bb947c2d2194e7facdf4d8000ad2b00bf2468c0a2cd3e1e471cd",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/QmlControls/APMSubMotorDisplay.qml",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/QmlControls/APMSubMotorDisplay.qml"
+    },
+    {
+      "path": "04_视频与图传/QGC/src/VideoStreaming/VideoReceiver.cc",
+      "bytes": 33031,
+      "sha256": "6045003d3234d02b7c783dca5f432f86ed8f8c7a6c6d9dd80e4e73a9d72ce670",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/VideoStreaming/VideoReceiver.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/VideoStreaming/VideoReceiver.cc"
+    },
+    {
+      "path": "04_视频与图传/QGC/src/VideoStreaming/VideoReceiver.h",
+      "bytes": 5525,
+      "sha256": "4816091ade8182cc458d7cd6988c7b4fc22c391880001094e34d808df48204c8",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/VideoStreaming/VideoReceiver.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/VideoStreaming/VideoReceiver.h"
+    },
+    {
+      "path": "04_视频与图传/QGC/src/VideoStreaming/VideoSurface.cc",
+      "bytes": 1881,
+      "sha256": "804334d8405f0e40f96b7a9a2067e6fa08ff2ac4979ec3df786dadbea70c094b",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/VideoStreaming/VideoSurface.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/VideoStreaming/VideoSurface.cc"
+    },
+    {
+      "path": "04_视频与图传/QGC/src/VideoStreaming/VideoSurface.h",
+      "bytes": 1535,
+      "sha256": "762f0ec5069d412295a78c32e5359cb8d31406fef799f2ef840398ef784069a3",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/VideoStreaming/VideoSurface.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/VideoStreaming/VideoSurface.h"
+    },
+    {
+      "path": "04_视频与图传/QGC/src/FlightDisplay/VideoManager.cc",
+      "bytes": 9738,
+      "sha256": "f5aac482a7ef53933e5637a3177c8b677a796432033c682c23cc44a6bf8115a2",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/FlightDisplay/VideoManager.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/FlightDisplay/VideoManager.cc"
+    },
+    {
+      "path": "04_视频与图传/QGC/src/FlightDisplay/VideoManager.h",
+      "bytes": 4071,
+      "sha256": "99c93c7f573e38f7ed92ba7fca8ec5185fe642f881eea8c4924a6046b04039ec",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/FlightDisplay/VideoManager.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/FlightDisplay/VideoManager.h"
+    },
+    {
+      "path": "04_视频与图传/QGC/src/Settings/VideoSettings.cc",
+      "bytes": 6052,
+      "sha256": "4d0246acbeba914c80c90a6cd8818fb5f6a7208957294dcdece856d07132b915",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/Settings/VideoSettings.cc",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/Settings/VideoSettings.cc"
+    },
+    {
+      "path": "04_视频与图传/QGC/src/Settings/VideoSettings.h",
+      "bytes": 2472,
+      "sha256": "38d70e2d44721450d461f48a87970f586eaa7250974ba93b8961f88e5b930931",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/Settings/VideoSettings.h",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/Settings/VideoSettings.h"
+    },
+    {
+      "path": "05_配置速查/QGC/src/Settings/AutoConnect.SettingsGroup.json",
+      "bytes": 3066,
+      "sha256": "915b399c66c5b1177620ec2ffb38607b0065a285d105951e91b61d15bad391a0",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/Settings/AutoConnect.SettingsGroup.json",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/Settings/AutoConnect.SettingsGroup.json"
+    },
+    {
+      "path": "05_配置速查/QGC/src/Settings/Video.SettingsGroup.json",
+      "bytes": 4047,
+      "sha256": "3442ef3e8be16eadbd3a9c8721c34ba5f44fc15db948bfc03e6315f80275470e",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/Settings/Video.SettingsGroup.json",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/Settings/Video.SettingsGroup.json"
+    },
+    {
+      "path": "05_配置速查/QGC/src/comm/USBBoardInfo.json",
+      "bytes": 5432,
+      "sha256": "f1d1b98291eceee0163261212191e9a03a52ec573e8f31574e953ab4e0983612",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/comm/USBBoardInfo.json",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/comm/USBBoardInfo.json"
+    },
+    {
+      "path": "05_配置速查/QGC/src/FirmwarePlugin/APM/APMParameterFactMetaData.Sub.3.5.xml",
+      "bytes": 448094,
+      "sha256": "77a339d1326e9e9fede152970181f1f589a1fe94417e5c789b6c3f22f7cbc84e",
+      "project": "QGroundControl",
+      "ref": "v3.5.6",
+      "upstreamPath": "src/FirmwarePlugin/APM/APMParameterFactMetaData.Sub.3.5.xml",
+      "sourceURL": "https://github.com/mavlink/qgroundcontrol/blob/v3.5.6/src/FirmwarePlugin/APM/APMParameterFactMetaData.Sub.3.5.xml"
+    },
+    {
+      "path": "05_配置速查/USB接口/px4fmu.inf",
+      "bytes": 3540,
+      "sha256": "fd9ec167b88c10cb7065de8b4f71cd593aab1ecd9e7d2e7a1fb41db6ffdd9767",
+      "project": "UAV Drivers",
+      "ref": "1.3.8",
+      "upstreamPath": "driver.msi/px4fmu.inf"
+    },
+    {
+      "path": "05_配置速查/USB接口/ChibiOS.inf",
+      "bytes": 3261,
+      "sha256": "7dbbd1fd50ab2fc9a3510cb69050777e5d777faac3f9feb08f2bbdb12c67bf9c",
+      "project": "UAV Drivers",
+      "ref": "1.3.8",
+      "upstreamPath": "driver.msi/ChibiOS.inf"
+    },
+    {
+      "path": "03_机器人配置与控制/ArduSub/COPYING.txt",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "project": "ArduSub",
+      "ref": "ArduSub-3.5.4",
+      "commit": "05fed49b8ee1db3c6bca924e0b334b2e0ece980d",
+      "upstreamPath": "COPYING.txt",
+      "sourceURL": "https://raw.githubusercontent.com/ArduPilot/ardupilot/05fed49b8ee1db3c6bca924e0b334b2e0ece980d/COPYING.txt"
+    },
+    {
+      "path": "03_机器人配置与控制/ArduSub/ArduSub/joystick.cpp",
+      "bytes": 26443,
+      "sha256": "60e98fb757b15b9763f78187863e785cb8ea232d28b7752cdb4650d55bf1d448",
+      "project": "ArduSub",
+      "ref": "ArduSub-3.5.4",
+      "commit": "05fed49b8ee1db3c6bca924e0b334b2e0ece980d",
+      "upstreamPath": "ArduSub/joystick.cpp",
+      "sourceURL": "https://raw.githubusercontent.com/ArduPilot/ardupilot/05fed49b8ee1db3c6bca924e0b334b2e0ece980d/ArduSub/joystick.cpp"
+    },
+    {
+      "path": "03_机器人配置与控制/ArduSub/ArduSub/GCS_Mavlink.cpp",
+      "bytes": 66948,
+      "sha256": "717b5fc3d96a041b39ab6601166a83f93343d205accbae5071b9d80b5ad01b2b",
+      "project": "ArduSub",
+      "ref": "ArduSub-3.5.4",
+      "commit": "05fed49b8ee1db3c6bca924e0b334b2e0ece980d",
+      "upstreamPath": "ArduSub/GCS_Mavlink.cpp",
+      "sourceURL": "https://raw.githubusercontent.com/ArduPilot/ardupilot/05fed49b8ee1db3c6bca924e0b334b2e0ece980d/ArduSub/GCS_Mavlink.cpp"
+    },
+    {
+      "path": "03_机器人配置与控制/ArduSub/ArduSub/motors.cpp",
+      "bytes": 9681,
+      "sha256": "c9270df3998bd4939f62a4cdfba39a5a071ec42284c42656cdcee9b848343ba2",
+      "project": "ArduSub",
+      "ref": "ArduSub-3.5.4",
+      "commit": "05fed49b8ee1db3c6bca924e0b334b2e0ece980d",
+      "upstreamPath": "ArduSub/motors.cpp",
+      "sourceURL": "https://raw.githubusercontent.com/ArduPilot/ardupilot/05fed49b8ee1db3c6bca924e0b334b2e0ece980d/ArduSub/motors.cpp"
+    },
+    {
+      "path": "03_机器人配置与控制/ArduSub/ArduSub/control_manual.cpp",
+      "bytes": 1296,
+      "sha256": "f2a686f0c12222eef9b68006fec56074a4b00a4cf48d83b767e32a490cf6880b",
+      "project": "ArduSub",
+      "ref": "ArduSub-3.5.4",
+      "commit": "05fed49b8ee1db3c6bca924e0b334b2e0ece980d",
+      "upstreamPath": "ArduSub/control_manual.cpp",
+      "sourceURL": "https://raw.githubusercontent.com/ArduPilot/ardupilot/05fed49b8ee1db3c6bca924e0b334b2e0ece980d/ArduSub/control_manual.cpp"
+    },
+    {
+      "path": "03_机器人配置与控制/ArduSub/ArduSub/control_stabilize.cpp",
+      "bytes": 2951,
+      "sha256": "a545fe53b6751eb3c28cd7e49f491768f310d861e04d2ad9c71aab46ec74a723",
+      "project": "ArduSub",
+      "ref": "ArduSub-3.5.4",
+      "commit": "05fed49b8ee1db3c6bca924e0b334b2e0ece980d",
+      "upstreamPath": "ArduSub/control_stabilize.cpp",
+      "sourceURL": "https://raw.githubusercontent.com/ArduPilot/ardupilot/05fed49b8ee1db3c6bca924e0b334b2e0ece980d/ArduSub/control_stabilize.cpp"
+    },
+    {
+      "path": "03_机器人配置与控制/ArduSub/ArduSub/control_althold.cpp",
+      "bytes": 5148,
+      "sha256": "e3cd8e4f5764b96e371758ae261d788d6ddc20e7c958386eb3f9bd3d0e4e3527",
+      "project": "ArduSub",
+      "ref": "ArduSub-3.5.4",
+      "commit": "05fed49b8ee1db3c6bca924e0b334b2e0ece980d",
+      "upstreamPath": "ArduSub/control_althold.cpp",
+      "sourceURL": "https://raw.githubusercontent.com/ArduPilot/ardupilot/05fed49b8ee1db3c6bca924e0b334b2e0ece980d/ArduSub/control_althold.cpp"
+    },
+    {
+      "path": "03_机器人配置与控制/ArduSub/ArduSub/Parameters.cpp",
+      "bytes": 32622,
+      "sha256": "56c32cbdb7d72a055cd90ee74ef357e75a742118f33a6d772428e4ad0dec672a",
+      "project": "ArduSub",
+      "ref": "ArduSub-3.5.4",
+      "commit": "05fed49b8ee1db3c6bca924e0b334b2e0ece980d",
+      "upstreamPath": "ArduSub/Parameters.cpp",
+      "sourceURL": "https://raw.githubusercontent.com/ArduPilot/ardupilot/05fed49b8ee1db3c6bca924e0b334b2e0ece980d/ArduSub/Parameters.cpp"
+    },
+    {
+      "path": "03_机器人配置与控制/ArduSub/ArduSub/Parameters.h",
+      "bytes": 11816,
+      "sha256": "bea1c4deeb2f65a14113a023ffcaf2d0ea4f74a269122015117591f41994fba0",
+      "project": "ArduSub",
+      "ref": "ArduSub-3.5.4",
+      "commit": "05fed49b8ee1db3c6bca924e0b334b2e0ece980d",
+      "upstreamPath": "ArduSub/Parameters.h",
+      "sourceURL": "https://raw.githubusercontent.com/ArduPilot/ardupilot/05fed49b8ee1db3c6bca924e0b334b2e0ece980d/ArduSub/Parameters.h"
+    },
+    {
+      "path": "03_机器人配置与控制/ArduSub/ArduSub/Sub.h",
+      "bytes": 28629,
+      "sha256": "235f0e0f959d7168cc834eea722c32d60a8f5f490040ee0ec9e2695408dccba6",
+      "project": "ArduSub",
+      "ref": "ArduSub-3.5.4",
+      "commit": "05fed49b8ee1db3c6bca924e0b334b2e0ece980d",
+      "upstreamPath": "ArduSub/Sub.h",
+      "sourceURL": "https://raw.githubusercontent.com/ArduPilot/ardupilot/05fed49b8ee1db3c6bca924e0b334b2e0ece980d/ArduSub/Sub.h"
+    },
+    {
+      "path": "03_机器人配置与控制/ArduSub/ArduSub/failsafe.cpp",
+      "bytes": 16437,
+      "sha256": "26151ffcb33b74fbf8950d60894914b476fdded62c7bf3c284798b78ff86130a",
+      "project": "ArduSub",
+      "ref": "ArduSub-3.5.4",
+      "commit": "05fed49b8ee1db3c6bca924e0b334b2e0ece980d",
+      "upstreamPath": "ArduSub/failsafe.cpp",
+      "sourceURL": "https://raw.githubusercontent.com/ArduPilot/ardupilot/05fed49b8ee1db3c6bca924e0b334b2e0ece980d/ArduSub/failsafe.cpp"
+    },
+    {
+      "path": "03_机器人配置与控制/ArduSub/ArduSub/config.h",
+      "bytes": 10155,
+      "sha256": "47ea00512ba925afac1a37816c90ce1068b73f9fb1aaee966012ed992683509a",
+      "project": "ArduSub",
+      "ref": "ArduSub-3.5.4",
+      "commit": "05fed49b8ee1db3c6bca924e0b334b2e0ece980d",
+      "upstreamPath": "ArduSub/config.h",
+      "sourceURL": "https://raw.githubusercontent.com/ArduPilot/ardupilot/05fed49b8ee1db3c6bca924e0b334b2e0ece980d/ArduSub/config.h"
+    },
+    {
+      "path": "03_机器人配置与控制/ArduSub/libraries/AP_Motors/AP_Motors6DOF.cpp",
+      "bytes": 23527,
+      "sha256": "0343b5072aa90abc1f6d90aa2a8af70adc0b071baa1a7a58fe099dff4dc7d18c",
+      "project": "ArduSub",
+      "ref": "ArduSub-3.5.4",
+      "commit": "05fed49b8ee1db3c6bca924e0b334b2e0ece980d",
+      "upstreamPath": "libraries/AP_Motors/AP_Motors6DOF.cpp",
+      "sourceURL": "https://raw.githubusercontent.com/ArduPilot/ardupilot/05fed49b8ee1db3c6bca924e0b334b2e0ece980d/libraries/AP_Motors/AP_Motors6DOF.cpp"
+    },
+    {
+      "path": "03_机器人配置与控制/ArduSub/libraries/AP_Motors/AP_Motors6DOF.h",
+      "bytes": 2435,
+      "sha256": "de959e275eb6ee20933e2d88910fe99eaac74ad382fa9f80efccc60c42007091",
+      "project": "ArduSub",
+      "ref": "ArduSub-3.5.4",
+      "commit": "05fed49b8ee1db3c6bca924e0b334b2e0ece980d",
+      "upstreamPath": "libraries/AP_Motors/AP_Motors6DOF.h",
+      "sourceURL": "https://raw.githubusercontent.com/ArduPilot/ardupilot/05fed49b8ee1db3c6bca924e0b334b2e0ece980d/libraries/AP_Motors/AP_Motors6DOF.h"
+    },
+    {
+      "path": "03_机器人配置与控制/ArduSub/libraries/AP_HAL/RCOutput.h",
+      "bytes": 4202,
+      "sha256": "f0f5807ccd47d0a76002ad3c94ac6f53994e41b3fbeaf479620273b489f65c19",
+      "project": "ArduSub",
+      "ref": "ArduSub-3.5.4",
+      "commit": "05fed49b8ee1db3c6bca924e0b334b2e0ece980d",
+      "upstreamPath": "libraries/AP_HAL/RCOutput.h",
+      "sourceURL": "https://raw.githubusercontent.com/ArduPilot/ardupilot/05fed49b8ee1db3c6bca924e0b334b2e0ece980d/libraries/AP_HAL/RCOutput.h"
+    }
+  ],
+  "selectionSummary": "按手柄操控、通信与参数读写、机器人配置与控制、视频图传、配置速查五类编排的源码选读。"
+}

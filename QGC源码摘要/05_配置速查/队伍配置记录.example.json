@@ -1,0 +1,37 @@
+{
+  "usage": "null 项由使用者按目标设备填写；通用默认值单列于 referenceDefaults。",
+  "groundStation": {
+    "systemId": null
+  },
+  "telemetry": {
+    "transport": null,
+    "listenPort": null,
+    "targetHost": "<robot-or-bridge-host>",
+    "targetPort": null
+  },
+  "video": {
+    "source": null,
+    "udpPort": null
+  },
+  "joystick": {
+    "device": null,
+    "rollAxis": null,
+    "pitchAxis": null,
+    "yawAxis": null,
+    "throttleAxis": null,
+    "reverseAxes": null,
+    "calibration": "按目标手柄在QGC中校准"
+  },
+  "robot": {
+    "board": null,
+    "firmwareVersion": null,
+    "frameConfig": null,
+    "motorDirections": null,
+    "parameterExport": "./parameters/<parameter-backup-file>"
+  },
+  "referenceDefaults": {
+    "telemetryUdpPort": 14550,
+    "videoUdpPort": 5600,
+    "source": "QGC v3.5.6 内置 AutoConnect / Video 设置定义"
+  }
+}

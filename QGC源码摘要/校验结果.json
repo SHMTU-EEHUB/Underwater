@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "scope": "公开资料全文与文件名检查",
+  "filesScanned": 92,
+  "categoryCount": 5,
+  "trackedSourceFilesVerified": 81,
+  "sourceContentsUnchanged": true,
+  "identifierScan": "PASS",
+  "workspaceAbsolutePathScan": "PASS",
+  "credentialLiteralReview": "PASS",
+  "genericConfigurationTemplate": "PASS",
+  "relativeReadmeLinks": "PASS",
+  "combinedReadme": "PASS",
+  "publicAttribution": "保留上游版权、许可证及官方项目链接",
+  "platformInterfaces": "保留串口平台接口和上游通用协议默认值",
+  "sizeBelow100MB": true,
+  "failures": []
+}
